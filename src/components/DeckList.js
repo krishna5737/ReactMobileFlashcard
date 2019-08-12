@@ -61,6 +61,7 @@ const styles = StyleSheet.create({
     fontSize: 30
   },
   container: {
+    overflow: 'scroll',
     justifyContent: 'center',
     flex: 1,
     alignItems: 'center',
@@ -68,6 +69,7 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
     backgroundColor: '#f5c542',
     margin: 15,
+    height: 250,
   },
 })
 
